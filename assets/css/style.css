@@ -9,17 +9,21 @@
 
 .center{
     max-width: 1280px;
-    padding: 0 2%;
+    padding: 0 3%;
     margin:0 auto;
 }
-
+img{
+    width: 100%;
+}
 .w33{
     width: 33.3%;
 }
 
 .w50{
+    padding:0 2%;
     width: 50%;
 }
+
 .clear{
     clear:both
 }
@@ -37,6 +41,7 @@ header{
     padding: 10px 0;
     background: #3D437A;
     position: relative;
+    z-index: 4;
 }
 
 header .logo{
@@ -62,15 +67,159 @@ nav.desktop li{
     font-size: 15px;
     padding: 0 30px;
 }
+
 nav.desktop a{
     color:#fff;
     text-decoration: none;
 }
 
+
+section.banner-principal{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/bg-principal.jpg');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+.overlay{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.6);
+    z-index: 2;
+}
+
+section.banner-principal form{
+    z-index: 2;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -ms-transform:  translate(-50%,-50%);
+    max-width: 500px;
+    width: 90%;
+    
+}
+
+section.banner-principal h2{
+    color:#fff;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+section.banner-principal form input[type=email]{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    color:#3D437A;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+section.banner-principal form button[name=acao]{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #00C59E;
+    color:white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+section.banner-principal form button[name=acao]:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(7, 228, 184);
+    border: 2px solid #00C59E;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+section.desc-author{
+    padding:40px 0;
+    color:#444
+}
+
+section.desc-author h2{
+    font-size: 25px;   
+    font-weight: 400;
+}
+
+section.desc-author p{
+    padding:2%;
+    font-size:14px;
+    margin-top:10px;
+    text-align: justify;
+    font-weight: 300;
+}
+
 .img-profile{
-    width: 380px;
-    height: 300px;
-    object-fit: cover;
-    box-shadow: 2px 5px 6px #ccc;
+    max-width: 400px;
+    box-shadow: 2px 5px 10px #ccc;
     border-radius: 5px;
+    background-attachment: fixed;
+    transition: 1s;
+}
+
+
+
+
+@media screen and (max-width:800px){
+    .btn-menu-collapse{
+        cursor:pointer;
+        font-size: 30px;
+        color:#fff;
+        margin:0 auto;
+    }
+    nav.mobile{
+        display: block;
+    }
+    nav.mobile ul{
+        position: absolute;
+        left:0;
+        top:68px;
+        z-index:3;
+        display: none;   
+        text-align:center;
+        width: 100%;
+        background-color: #fff;
+    }
+    nav.mobile li{
+        color:#fff;
+        font-size: 15px;
+        padding:10px;
+        border-bottom:1px solid #ccc
+    }
+    nav.mobile li:hover{
+        background-color:#ccc;
+        transition: 0.5s;
+    }
+    nav.mobile a{
+        color:#444;
+        display: block;
+        text-decoration: none;
+    }
+
+    nav.desktop{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px){
+    img{
+        float:none !important;
+        display: block;
+        margin:0 auto;
+        width: 200px;
+    }
+    .w50{
+        width: 100%;
+        padding:20px
+    }
 }

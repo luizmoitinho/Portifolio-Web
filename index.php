@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Projeto 01</title>
+        <title>Luiz Moitinho | Portifólio</title>
         <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <link rel ="stylesheet" type="text/css" href="assets/css/style.css">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Direito,Advocacia">
-        <meta name="description" content="Descrição do meu website">
+        <meta name="keywords" content="Web,FullStack, Desenvolvedor, Sistemas, HTMl, CSS,JS,PHP,API">
+        <meta name="description" content="Site pessoal do programdor full-stack Luiz Moitinho">
     </head>
     <body>
 
@@ -25,6 +25,9 @@
                     </ul>
                 </nav>
                 <nav class="mobile right">
+                    <div class="btn-menu-collapse">
+                        <i class="fas fa-bars"></i> 
+                    </div>
                     <ul>
                         <li><a href="#">Home<a></li>
                         <li><a href="#">Sobre<a></li>
@@ -37,10 +40,11 @@
         </header>
 
         <section class="banner-principal">
+            <div class="overlay"></div>
             <div class="center">
                 <form>
                     <h2>Qual o seu melhor e-mail</h2>
-                    <input type="email" name="email" required>
+                    <input type="email" name="email" placeholder="Digite aqui seu email!"  required>
                     <button name="acao">Cadastrar</button>
                 </form>
             </div>
@@ -56,7 +60,7 @@
                     </p>
                 </div>
                 <div class="w50 left">
-                    <img src="assets/img/img-author.jpg" class="img-profile"> 
+                    <img src="assets/img/img-author.jpg" class="img-profile right"> 
                 </div>
                 <div class="clear"></div>
             </div>

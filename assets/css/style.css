@@ -66,7 +66,7 @@ nav.desktop li{
     display: inline-block;
     text-transform: uppercase;
     font-size: 15px;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 nav.desktop a{
@@ -218,9 +218,102 @@ section.habilidades h2.title{
     text-align: justify !important;
 }
 
+section.depoimentos-container{
+    padding:70px 0;
+    background: #404580;
+}
 
+.depoimentos-container, .servicos-container{
+    padding:0 5%;
+}
 
-@media screen and (max-width:800px){
+section.depoimentos-container .title{
+    color:#fff;
+    font-weight: 400;
+    font-size:30px;
+    margin-bottom: 50px;
+    text-align: center;
+}   
+
+.desc-depoimento{
+    color:rgb(209, 209, 209);
+    text-align: justify;
+    margin:0;
+}
+.name-author{
+    margin-top:2%;
+    font-weight: bold;
+    font-size: 16px;
+    color:#ffffff
+}
+section.servicos-container{
+    width: 100%;
+    padding:70px 0;
+}
+
+section.servicos-container .title{
+    color:#3D437A;
+    font-weight: 700;
+    font-size:30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.servicos li{
+    list-style: none;
+    position: relative;
+    text-align: justify;
+    margin-bottom:5%
+}
+
+footer{
+    background-color: #313462;
+}
+
+footer div.center{
+    padding:2% 10%
+}
+footer div.direitos{
+    padding:1%
+}
+footer h4{
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff;
+    text-align: left;
+}
+
+footer ul{
+    margin-top:1%;
+    list-style: none;
+}
+
+footer ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+footer ul li{
+    padding-bottom:2%;
+}
+
+footer a li i{
+    font-size: 30px;
+}
+
+.midias-sociais a li{
+    display: inline;
+}
+.direitos{
+    background-color: #0b0d2a;
+    font-weight: 600;
+    width: 100%;
+    font-size:15px;
+    text-align: center;
+    color:#fff;
+}
+
+@media screen and (max-width:820px){
     .btn-menu-collapse{
         cursor:pointer;
         font-size: 30px;
@@ -260,6 +353,14 @@ section.habilidades h2.title{
         display: none;
     }
     
+    footer h4{
+        margin-top: 10%;
+        margin-bottom: 4px;
+    }
+    
+    footer .w33{
+        width: 50%;
+    }
 }
 @media screen and (max-width:768px){
     img{
@@ -278,6 +379,12 @@ section.habilidades h2.title{
     }
     .box-habilidade{
         margin: 10px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px){
+    footer .w33{
         width: 100%;
     }
 }

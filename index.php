@@ -23,6 +23,7 @@
                     <li><a href="#">Home<a></li>
                     <li><a href="#">Sobre<a></li>
                     <li><a href="#">Serviços<a></li>
+                    <li><a href="#">Depoimentos<a></li> 
                     <li><a href="#">Contato<a></li>
                 </ul>
             </nav>
@@ -34,6 +35,7 @@
                     <li><a href="#">Home<a></li>
                     <li><a href="#">Sobre<a></li>
                     <li><a href="#">Serviços<a></li>
+                    <li><a href="#">Depoimentos<a></li>
                     <li><a href="#">Contato<a></li>
                 </ul>
             </nav>
@@ -70,14 +72,14 @@
 
     <section class="habilidades">
         <div class="center">
-        <h2 class='title'>Habilidades</h2>
+            <h2 class='title'>Habilidades</h2>
             <div class="w33 left box-habilidade">
                 <h3>
                     <i class="fab fa-js fa-3x"></i>
                 </h3>
                 <h4>Java Script</h4>
                 <div class="desc-habilidade">
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </div>
             </div>
             <div class="w33 left box-habilidade">
@@ -86,7 +88,7 @@
                 </h3>
                 <h4>HTML5</h4>
                 <div class="desc-habilidade">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </div>
             </div>
             <div class="w33 left box-habilidade">
@@ -95,7 +97,7 @@
                 </h3>
                 <h4>PHP</h4>
                 <div class="desc-habilidade">
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </div>
             </div>
             <div class="w33 left box-habilidade">
@@ -104,79 +106,101 @@
                 </h3>
                 <h4>CSS</h4>
                 <div class="desc-habilidade">
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </div>
             </div>
         </div>
         <div class="clear"></div>
     </section>
 
-    <section class="depoimentos">
-        <div class="center">
-            <div class="w50 left">
-                <h2 class="title">O que nossos clientes dizem</h2>
-                <div class="desc-depoimento">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                    and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                    comes from a line in section 1.10.32.
-                    <p class="nome-author">Lorem Ipsum</p>
-                </div>
-                <div class="desc-depoimento">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                    and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                    comes from a line in section 1.10.32.
-                    <p class="nome-author">Lorem Ipsum</p>
-                </div>
-                <div class="desc-depoimento">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                    and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                    comes from a line in section 1.10.32.
-                    <p class="nome-author">Lorem Ipsum</p>
-                </div>
+    <section class="depoimentos-container">
+        <div class="center ">
+            <h2 class="title">O que nossos clientes dizem</h2>
+            <div class="desc-depoimento w33 left">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                <p class="name-author">Lorem Ipsum</p>
             </div>
-            <div class="clear"></div>
-            <div class="w50 left">
-                <h2 class="title">Nossos Serviços</h2>
-                <div class="servicos">
-                    <ul>
-                        <li>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                            and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                            comes from a line in section 1.10.32.
-                        </li>
-                        <li>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                            and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                            comes from a line in section 1.10.32.
-                        </li>
-                        <li>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                            and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                            comes from a line in section 1.10.32.
-                        </li>
-                    </ul>
-                </div>
+            <div class="desc-depoimento w33 left">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                <p class="name-author">Lorem Ipsum</p>
+            </div>
+            <div class="desc-depoimento w33 left">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                <p class="name-author">Lorem Ipsum</p>
             </div>
             <div class="clear"></div>
         </div>
     </section>
+    <section class="servicos-container">
+        <div class="center">
+            <h2 class="title">Nossos Serviços</h2>
+            <ul class="servicos">
+                <li class="w33 left">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                </li>
+                <li class="w33 left">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
 
-    <footer class="center">
-        <p>&copy; Todos os direitos reservados</p>
-    </footer>
+                </li>
+                <li class="w33 left">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </section>
 
+    <footer>
+        <div class="center">
+            <div class="w33 left">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Depoimentos</a></li>
+                    <a><li>Contato</li></a>
+                </ul>
+            </div>
+            <div class="w33 left">
+                <h4>Redes sociais</h4>
+                <ul class="midias-sociais" >
+                    <a href="#">
+                        <li>
+                            <i class="fab fa-facebook 7X"></i>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li>
+                            <i class="fab fa-instagram 7X"></i>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li>
+                            <i class="fab fa-github 7X"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="w33 left">
+                <h4>Contato</h4>
+                <ul>
+                    <a ><li>E-mail: luizcarlos_costam@hotmail.com</li></a>
+                    <a ><li>Celular: (11) 98123-1233</li></a>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="direitos left">
+            MTI Solutions - 2020&copy; Todos os direitos reservados
+        </div> 
+</footer>
 </body>
 
 </html>
